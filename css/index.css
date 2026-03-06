@@ -21,7 +21,8 @@ body {
 }
 
 .header-chats{
-    padding: 30px 0;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 .wrapper {
@@ -128,9 +129,8 @@ ul {
 
 .body-chats {
     flex-direction: column;
-    justify-content: space-evenly;
-    gap: 20px;
-    padding-left: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .img-chat {
@@ -142,9 +142,10 @@ ul {
 .chat{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    padding: 20px 10px;
     color: #868894;
     position: relative;
+    gap: 10px;
 }
 
 .messaggio{
@@ -154,7 +155,7 @@ ul {
 .chat-1::after{
     content: "2min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -162,7 +163,7 @@ ul {
 .chat-2::after{
     content: "5min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -170,7 +171,7 @@ ul {
 .chat-3::after{
     content: "8min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -178,7 +179,7 @@ ul {
 .chat-4::after{
     content: "12min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -186,7 +187,7 @@ ul {
 .chat-5::after{
     content: "18min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -194,7 +195,7 @@ ul {
 .chat-6::after{
     content: "25min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -202,7 +203,7 @@ ul {
 .chat-7::after{
     content: "45min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -210,7 +211,7 @@ ul {
 .chat-8::after{
     content: "12min";
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     transform: translateX(-50%);
 }
@@ -218,7 +219,13 @@ ul {
 .chat-9::after{
     content: "1h";
     position: absolute;
-    top: 0;
-    right: 0px;
+    top: 10px;
+    right: 15px;
     transform: translateX(-50%);
+}
+
+.chat:hover{
+    background-color: #464647e5;
+    color: white;
+    border-radius: 15px;
 }
