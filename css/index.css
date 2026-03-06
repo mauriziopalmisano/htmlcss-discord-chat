@@ -19,6 +19,9 @@ body {
     display: flex;
 }
 
+.header-chats{
+    padding: 30px 0;
+}
 
 .wrapper {
     flex-direction: column;
@@ -49,10 +52,7 @@ body {
     flex-grow: 1;
     flex-basis: 100px;
     overflow: auto;
-}
-
-.body-chats {
-    flex-direction: column;
+    background-color: rgba(28, 29, 34);
 }
 
 .footer-nav {
@@ -122,4 +122,18 @@ ul {
     background: white;
     border-radius: 2px;
     transition: all 0.3s ease;
+}
+
+
+.body-chats {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.img-chat {
+    height: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
 }
