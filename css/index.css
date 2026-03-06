@@ -14,6 +14,34 @@ body {
 
 /*utility*/
 
-/* .d-flex{
+.d-flex{
     display: flex;
-} */
+}
+
+
+.wrapper{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wrapper-body{
+    flex-direction: row;
+}
+
+.server-list{
+    flex-direction: column;
+}
+
+.wrapper-chats{
+    flex-direction: column;
+}
+
+.body-chats{
+    flex-direction: column;
+}
+
+.footer-nav{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
