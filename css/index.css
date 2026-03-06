@@ -15,32 +15,35 @@ body {
 
 /*utility*/
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
 
-.wrapper{
+.wrapper {
     flex-direction: column;
     justify-content: flex-start;
     height: 100vh;
 }
 
-.wrapper-body{
+.wrapper-body {
     flex-direction: row;
     flex-grow: 1;
     height: 0;
 }
 
-.server-list{
+.server-list {
     flex-direction: column;
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: 80px;
-    background-color: green;
+    background-color:#141318;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
 }
 
-.wrapper-chats{
+.wrapper-chats {
     flex-direction: column;
     flex-shrink: 1;
     flex-grow: 1;
@@ -48,11 +51,11 @@ body {
     overflow: auto;
 }
 
-.body-chats{
+.body-chats {
     flex-direction: column;
 }
 
-.footer-nav{
+.footer-nav {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
@@ -60,24 +63,63 @@ body {
     flex-basis: 80px;
 }
 
-.img-profilo{
+.img-profilo {
     width: 25px;
     aspect-ratio: 1;
     border-radius: 50%;
 }
 
-.button{
+.button-ft {
     background-color: rgba(45, 45, 53);
     border: none;
-    color:white;
+    color: white;
     flex-basis: 130px;
 }
 
-.icon-ft{
+.icon-ft {
     font-size: 25px;
 }
 
-.text-ft{
+.text-ft {
     font-size: 12px;
     font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.button-side {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    padding: 0 10px 0 0;
+    position: relative;
+
+}
+
+.server-img {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transition: border-radius 0.3s ease;
+}
+
+.button-side:focus .server-img {
+    border-radius: 25%;
+}
+.button-side:focus::before {
+    content: '';
+    position: absolute;
+    left: -6px;           
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 40px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
 }
