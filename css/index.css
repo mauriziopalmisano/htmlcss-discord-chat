@@ -11,6 +11,7 @@ body {
     max-width: 512px;
     margin: 0 auto;
     outline: dashed red;
+    font-family: "DM Sans", sans-serif;
 }
 
 /*utility*/
@@ -136,4 +137,88 @@ ul {
     height: 40px;
     aspect-ratio: 1;
     border-radius: 50%;
+}
+
+.chat{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #868894;
+    position: relative;
+}
+
+.messaggio{
+    font-size:13px;
+}
+
+.chat-1::after{
+    content: "2min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-2::after{
+    content: "5min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-3::after{
+    content: "8min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-4::after{
+    content: "12min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-5::after{
+    content: "18min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-6::after{
+    content: "25min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-7::after{
+    content: "45min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-8::after{
+    content: "12min";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+
+.chat-9::after{
+    content: "1h";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    transform: translateX(-50%);
 }
