@@ -14,8 +14,9 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
-:root
-
+:root{
+ --app-width: 512px;
+}
 /*utility*/
 
 .d-flex {
@@ -193,7 +194,7 @@ ul {
     box-shadow: none;
     position: fixed;
     bottom: 10%;
-    right: clamp(10px, calc(50vw - 512 / 2 + 10px), 20vw);
+    right: clamp(24px, calc(50vw - var(--app-width) / 2 + 24px), 50vw);
 }
 
 /*footer*/
