@@ -14,6 +14,8 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+:root
+
 /*utility*/
 
 .d-flex {
@@ -77,7 +79,6 @@ ul {
     text-align: center;
     box-shadow: none;
 }
-
 
 .cerca-amici {
     display: flex;
@@ -178,6 +179,21 @@ ul {
     background-color: #464647e5;
     color: white;
     border-radius: 15px;
+}
+
+.add-chat-btn{
+    background-color: #373a43;
+    border: none;
+    padding: 8px;
+    outline: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: none;
+    position: fixed;
+    bottom: 10%;
+    right: clamp(10px, calc(50vw - 512 / 2 + 10px), 20vw);
 }
 
 /*footer*/
