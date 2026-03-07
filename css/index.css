@@ -21,8 +21,37 @@ body {
 }
 
 .header-chats{
-    padding-top: 20px;
-    padding-left: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.header-titolo{
+    padding-bottom: 15px;
+}
+
+.button-header{
+    background-color: #373a43;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    font-size: 20px;
+}
+
+.cerca-amici{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.btn-searc{
+    flex-basis: 40px;
+}
+
+.btn-search-text{
+    flex-basis: 350px;
 }
 
 .wrapper {
@@ -35,6 +64,7 @@ body {
     flex-direction: row;
     flex-grow: 1;
     height: 0;
+    background-color:#141318;
 }
 
 .server-list {
@@ -46,6 +76,7 @@ body {
     align-items: center;
     gap: 10px;
     padding-top: 10px;
+    margin-top: 20px;
 }
 
 .wrapper-chats {
@@ -55,6 +86,8 @@ body {
     flex-basis: 100px;
     overflow: auto;
     background-color: rgba(28, 29, 34);
+    margin-top: 10px;
+    border-top-left-radius: 25px;
 }
 
 .footer-nav {
